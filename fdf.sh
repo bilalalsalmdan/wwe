@@ -464,44 +464,12 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+
 
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs...\e[0m\n"
-sleep 60
+
 #unfollow
-
-selena="460563723"
-neymar="26669533"
-ariana="7719696"
-beyonce="247944034"
-cristiano="173560420"
-kimkardashian="18428658"
-kendall="6380930"
-therock="232192182"
-kylie="12281817"
-jelopez="305701719"
-messi="427553890"
-
-dualipa="12331195"
-mileycyrus="325734299"
-shawnmendes="212742998"
-katyperry="407964088"
-charlieputh="7555881"
-lelepons="177402262"
-camila_cabello="19596899"
-madonna="181306552"
-leonardodicaprio="1506607755"
-ladygaga="184692323"
-taylorswift="11830955"
-instagram="25025320"
-
-
-if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
-fi
-
-while [[ true ]]; do
 
 for celeb in $(cat celeb_id); do
 
@@ -519,10 +487,10 @@ printf "\e[1;92mOK\e[0m\n"
 fi
 
 
-sleep 3
+
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs...\e[0m\n"
-sleep 60
+
 
 
 done
